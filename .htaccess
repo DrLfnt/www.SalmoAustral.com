@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^avances.salmoaustral.com [OR]
+RewriteCond %{HTTP_HOST} ^www.avances.salmoaustral.com$
+RewriteRule ^(.*)$ http://salmoaustral.com/avances [R=301,L]
