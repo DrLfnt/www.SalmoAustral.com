@@ -71,10 +71,10 @@ jQuery(function($) {'use strict';
 		$.ajax({
 			url: $(this).attr('action'),
 			beforeSend: function(){
-				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
+				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Enviando correo electónico...</p>').fadeIn() );
 			}
 		}).done(function(data){
-			form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
+			form_status.html('<p class="text-success">Gracias, nos comunicaremos pronto</p>').delay(3000).fadeOut();
 		});
 	});
 
@@ -88,8 +88,8 @@ jQuery(function($) {'use strict';
 
 		map = new GMaps({
 			el: '#gmap',
-			lat: 43.04446,
-			lng: -76.130791,
+			lat: 19.3453887,
+			lng: -99.0665397,
 			scrollwheel:false,
 			zoom: 16,
 			zoomControl : false,
@@ -101,8 +101,8 @@ jQuery(function($) {'use strict';
 		});
 
 		map.addMarker({
-			lat: 43.04446,
-			lng: -76.130791,
+			lat: 19.3453887,
+			lng: -99.0665397,
 			animation: google.maps.Animation.DROP,
 			verticalAlign: 'bottom',
 			horizontalAlign: 'center',
