@@ -133,7 +133,9 @@
 				<div class="clearfix">
 					<div>
 						<h4 style="text-align: center;">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio beatae, in ipsam pariatur harum aliquam doloremque fugiat, amet deserunt aperiam, placeat voluptatum quis veritatis! Explicabo animi delectus, repellat repudiandae deserunt.
+							Salmo Austral es una exportadora y ahumadora de salmón, una empresa joven, con nuevas ideas, comprometida con el producto, con los clientes y con el consumidor final. Convencida de que la innovación y la tecnología es un factor clave para asegurar el éxito a largo plazo dentro de la categoría de salmones.
+							<br>
+							Somos una empresa que suministra alimentos de calidad, saludables y nutritivos orientados a los mercados más exigentes del mundo. Porque Salmo Austral es un Arte Gourmet.
 						</h4>
 					</div>
 				</div>
